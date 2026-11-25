@@ -1,0 +1,60 @@
+﻿id,scene,type,speaker,expression,text,next,cond_flag,cond_state,set_flag,bg,bgm,sfx,sfx_loop,memo,portrait,expr_code,bgm_path,sfx_path,check
+ID,장면,구분,캐릭터,표정,텍스트 (대사 / 선택지 문구 / 엔딩 제목),다음 ID,조건 플래그,조건 상태,켜는 플래그,배경,BGM (루프),SFX,SFX 반복 (Y),메모,portraitPath (자동),표정 코드 (자동),BGM 경로 (자동),SFX 경로 (자동),자동 점검
+S1-010,해변에서,대사,내레이터,기본,"어느 날과 같이, 한바탕 싸우고 해변에 앉아 있는 밀리아나.",,,,,bg_beach,MAIN,sfx_wave,,,Characters/Narrator,default,Sounds/BGM/bgm_main.mp3,Sounds/SFX/sfx_wave.mp3,✓
+S1-020,,대사,밀리아나,화남,... 여기는 조용해서 좋네.,,,,,,,,,,Characters/Milliana,angry,,,✓
+S1-030,,대사,밀리아나,화남,아무것도 모르면서 말이나 함부로 하고 말이야.,,,,,,,,,,Characters/Milliana,angry,,,✓
+S1-040,,대사,밀리아나,기본,... 언니는 지금 뭐 하고 있을까.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-050,,대사,내레이터,기본,밀리아나는 해변에 쪼그려 앉은 채 멍하니 바다를 바라보고 있다.,,,,,,,sfx_wave,Y,,Characters/Narrator,default,,Sounds/SFX/sfx_wave.mp3,✓
+S1-060,,대사,내레이터,기본,"몸은 방금 생긴 상처들과 오래된 흉터, 심지어 이제 막 새살이 돋고 있는 상처까지 다양한 상흔으로 가득했다.",,,,,,,sfx_wave,Y,,Characters/Narrator,default,,Sounds/SFX/sfx_wave.mp3,✓
+S1-070,,대사,내레이터,기본,"밀리아나가 멍하니 있는 사이, 어디선가 발걸음이 들려온다.",,,,,,,sfx_wave,Y,,Characters/Narrator,default,,Sounds/SFX/sfx_wave.mp3,✓
+S1-080,,대사,???,기본,"밀, 여기 있었어?",,,,,,,sfx_walk,,,Characters/unknown,default,,Sounds/SFX/sfx_walk.mp3,✓
+S1-090,,대사,???,기본,다른 애들이랑 싸웠다며.,,,,,,,,,,Characters/unknown,default,,,✓
+S1-100,,선택지,,,... 이유가 있었단 말야.,S1-120,,,,,,,,,,,,,✓
+S1-110,,선택지,,,왜? 언니도 혼내려고 왔어?,S1-270,,,,,,,,,,,,,✓
+S1-120,,대사,밀리아나,기본,내가 언니 동생인 게 말도 안 된다고 했어. 나 같은 애가 언니 동생이라서 언니가 불쌍하다고 했단 말야.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-130,,대사,???,기본,"밀, 그럴 리가 없잖아. 넌 내가 제일 사랑하는 하나 뿐인 동생인걸.",,,,,,,,,,Characters/unknown,default,,,✓
+S1-140,,대사,???,기본,밀. 정말이야. 나는 네가 그 무엇보다도 소중해.,,,,,,,,,,Characters/unknown,default,,,✓
+S1-150,,대사,???,기본,... 잠깐 걸을까?,,,,,,,,,,Characters/unknown,default,,,✓
+S1-160,,대사,???,기본,여기 기억나?,,,,,bg_secretbase,,,,,Characters/unknown,default,,,✓
+S1-170,,대사,???,기본,어릴 때 우리 둘이 발견한 곳이잖아.,,,,,,,,,,Characters/unknown,default,,,✓
+S1-180,,대사,밀리아나,기본,... 당연하지. 기억 못 할 리가 없잖아.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-190,,대사,밀리아나,기본,그때도 다른 애랑 싸운 직후에 언니가 날 찾아냈었잖아.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-200,,대사,???,기본,"그래, 밀. 기억하고 있네.",,,,,,,,,,Characters/unknown,default,,,✓
+S1-210,,대사,???,기본,난 네가 어디에 있든 널 찾아서 네 곁에 있을 거야.,,,,,,,,,,Characters/unknown,default,,,✓
+S1-220,,대사,밀리아나,기본,정말이야?,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-230,,대사,밀리아나,기본,내가 어디에 있든 정말로 찾을 수 있어?,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-240,,대사,???,기본,"그럼, 밀. 내 사랑하는 여동생.",,,,,,,,,,Characters/unknown,default,,,✓
+S1-250,,대사,???,기본,우리는 자매잖아.,,,,,,,,,,Characters/unknown,default,,,✓
+S1-260,,엔딩,,,[True Ending] Before Everything,,,,ENDING_IF,,STOP,,,,,,STOP,,✓
+S1-270,,대사,밀리아나,기본,난 잘못한 거 없어.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-280,,대사,???,기본,밀. 너랑 싸운 애들이 몇 명인지나 알아?,,,,,,,,,,Characters/unknown,default,,,✓
+S1-290,,대사,???,기본,자꾸 이렇게 싸우고만 다닐 거야? 너-,,,,,,,,,,Characters/unknown,default,,,✓
+S1-300,,대사,밀리아나,기본,그만! 안 듣고 싶어.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-310,,대사,밀리아나,기본,언니도 다 똑같아. 언니 같은 거 필요 없어.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-320,,대사,밀리아나,기본,아무것도 모르는 주제에 자꾸 뭐라고 말 얹지나 마!,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-330,,대사,밀리아나,기본,언니는...,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-340,,대사,밀리아나,기본,나보다 친구들이 더 소중하잖아!,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-350,,대사,???,기본,밀리아나.,,,,,,,,,,Characters/unknown,default,,,✓
+S1-360,,대사,???,기본,"정말 그렇게 생각해, 밀리아나 오베르?",,,,,,,,,,Characters/unknown,default,,,✓
+S1-370,,대사,밀리아나,기본,"응. 언니는, 항상....",,,,,,,,,,Characters/Milliana,default,,,✓
+S1-380,,대사,밀리아나,기본,됐어. 언니 같은 거 필요 없어.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-390,,대사,???,기본,...,,,,,,,,,,Characters/unknown,default,,,✓
+S1-400,,대사,밀리아나,기본,...,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-410,,대사,밀리아나,기본,모네타 아카데미에서 입학 허가서가 왔다며?,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-420,,대사,밀리아나,기본,나 거기로 갈 거야.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-430,,대사,???,기본,... 뭐?,,,,,,,,,,Characters/unknown,default,,,✓
+S1-440,,대사,밀리아나,기본,정말이야. 이 마을을 떠날 거야.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-450,,대사,밀리아나,기본,제일 빠른 기차로 가겠다고 집에 가자 마자 엄마한테 말할 거야.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-460,,대사,???,기본,... 정말 그게 네 선택이야?,,,,,,,,,,Characters/unknown,default,,,✓
+S1-470,,선택지,,,응. 이게 내 선택이야,S1-490,,,,,,,,,,,,,✓
+S1-480,,선택지,,,... 나 보기 싫잖아.,S1-120,,,,,,,,,,,,,✓
+S1-490,,대사,밀리아나,기본,언니 먼저 들어가.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-500,,대사,밀리아나,기본,나도 곧 집에 들어갈 거니까.,,,,,,,,,,Characters/Milliana,default,,,✓
+S1-510,,대사,내레이터,웃음,...,,,,,bg_black,,,,,Characters/Narrator,smile,,,✓
+S1-520,,대사,내레이터,기본,차체가 덜컹인다.,,,,,,,,,,Characters/Narrator,default,,,✓
+S1-530,,대사,밀리아나,웃음,아....,,,,,bg_train,,,,,Characters/Milliana,smile,,,✓
+S1-540,,대사,밀리아나,웃음,또 이 꿈이네.,,,,,,,,,,Characters/Milliana,smile,,,✓
+S1-550,,대사,밀리아나,웃음,... 어떻게 지내고 있으려나.,,,,,,,,,,Characters/Milliana,smile,,,✓
+S1-560,,대사,밀리아나,웃음,"곧 졸업이니까, 조금만 더 힘내자.",,,,,,,,,,Characters/Milliana,smile,,,✓
+S1-570,,대사,밀리아나,웃음,그리고 꼭....,,,,,,,,,,Characters/Milliana,smile,,,✓
+S1-580,,엔딩,,,[??? Ending] Reminisce,,,,ENDING_NOW,,STOP,,,,,,STOP,,✓
